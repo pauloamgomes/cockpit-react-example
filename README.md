@@ -43,9 +43,9 @@ In way to use it just run the following commands.
 
 The url http://cockpit-example.docker.localhost/ should be accessible form your browser as the docker-compose uses Traefik, however if not, add it to your /etc/hosts file:
 
-    ```
-    $ sudo echo "127.0.0.1 cockpit-example.docker.localhost" >> /etc/hosts
-    ```
+```
+$ sudo echo "127.0.0.1 cockpit-example.docker.localhost" >> /etc/hosts
+```
 
 ## Copyright and license
 
