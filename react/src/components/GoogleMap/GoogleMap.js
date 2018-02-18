@@ -14,12 +14,11 @@ const styles = {
 };
 
 const GoogleMap = props => {
-  const url = props.url && props.url.replace(/^https?:\/\//, '//');
   return (
     <div style={styles.container}>
       <iframe
         title="map"
-        src={url}
+        src={props.url}
         width="100%"
         height="450"
         frameBorder="0"
