@@ -6,17 +6,16 @@ Example site can be accessed on [http://pauloamgomes.github.io/cockpit-react-exa
 
 ## Installation
 
-First confirm that you have docker and docker-sync installed on your system.
+First confirm that you have [docker](https://www.docker.com) and [docker-sync](http://docker-sync.io) installed on your system.
 
-1. Clone this repo or download it as a zip file.
-2. Extract it
-3. Run the Cockpit Example install script inside cockpit folder:
+1. Clone this repo or [download it as a zip file](https://github.com/pauloamgomes/cockpit-react-example/archive/master.zip) and extract it.
+2. Run the Cockpit Example install script inside cockpit folder:
     ```
     $ cd cockpit-react-example/cockpit
     $ ./install.sh
     ```
     it shall initialize the Cockpit CMS with example data
-4. Install React dependencies
+3. Install React dependencies
     ```
     $ cd cockpit-react-example/react
     $ yarn install
@@ -38,6 +37,10 @@ In way to use it just run the following commands.
     $ yarn start
     ```
 3. Open Cockpit CMS admin interface at http://cockpit-example.docker.localhost/
+
+        Username: admin
+        Password: admin
+
 4. Open the example React App at http://localhost:3000/
 
 
