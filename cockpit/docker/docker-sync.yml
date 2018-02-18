@@ -1,0 +1,11 @@
+version: "2"
+
+options:
+  verbose: true
+
+syncs:
+  cockpit-example-sync:
+    src: '../www'
+    sync_userid: '82'
+    sync_prefer: 'default'
+    sync_excludes: ['.gitignore', '.git/', '.idea/', '.DS_Store', 'node_modules']

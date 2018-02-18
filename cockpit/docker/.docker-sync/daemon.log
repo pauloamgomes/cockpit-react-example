@@ -1,0 +1,31 @@
+          ok  Starting native_osx for sync cockpit-example-sync
+          ok  cockpit-example-sync container still running, restarting unison in container
+     command  docker exec cockpit-example-sync supervisorctl restart unison
+unison: stopped
+unison: started
+          ok  starting initial sync of cockpit-example-sync
+     success  Sync container started
+     success  Showing unison logs from your sync container: cockpit-example-sync
+[2018-02-18 00:10:01 +0000] Sync Log:  UNISON 2.48.4 started propagating changes at 00:10:12.88 on 18 Feb 2018
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/banner.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/banner.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/basicpage.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/basicpage.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/carousel.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/carousel.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/columns.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/columns.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/faq.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/faq.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/googlemap.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/googlemap.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/quote.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/quote.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/showmore.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/showmore.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/simpleblock.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/simpleblock.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  [BGN] Copying properties for storage/collections/text.collection.php from /host_sync to /app_sync
+[2018-02-18 00:10:01 +0000] Sync Log:  [END] Copying properties for storage/collections/text.collection.php
+[2018-02-18 00:10:01 +0000] Sync Log:  UNISON 2.48.4 finished propagating changes at 00:10:12.88 on 18 Feb 2018
+[2018-02-18 00:10:01 +0000] Sync Log:  Synchronization complete at 00:10:12  (10 items transferred, 0 skipped, 0 failed)

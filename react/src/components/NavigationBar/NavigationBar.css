@@ -1,0 +1,10 @@
+.main-menu a:hover {
+  border-bottom: 1px solid rgb(79, 195, 247);
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width: 720px) {
+  .main-menu {
+    display: none !important;
+  }
+}

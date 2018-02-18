@@ -1,0 +1,48 @@
+/* Reset - common styles */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  background-color: #fff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+}
+
+.container-fluid {
+  padding: 0px;
+}
+
+.style-Lighten a {
+  color: #0288d1;
+}
+
+.style-Darken a {
+  color: #fff;
+}

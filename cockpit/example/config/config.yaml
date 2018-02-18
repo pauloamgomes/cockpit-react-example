@@ -1,0 +1,42 @@
+# Cockpit settings
+app.name: Cockpit Example
+# cockpit session name
+#session.name: cockpit
+
+# define the languages you want to manage
+#languages:
+#    en: English
+#    pt: Portuguese
+
+# define additional groups
+groups:
+    api:
+        $admin: false
+        cockpit:
+            backend: false
+            finder: false
+    author:
+        $admin: false
+        $vars:
+            finder.path: /storage/upload
+        cockpit:
+            backend: true
+            finder: true
+
+
+# use mongodb as main data storage
+#database:    
+#    server: mongodb://localhost:27017
+#    options:
+#        db: cockpitdb
+
+# use smtp to send emails
+#mailer:
+#    from      : pauloamgomes@gmail.com
+#    transport : smtp
+#    host      : cockpit-react-mailhog
+#    user      : username
+#    password  : xxpasswordxx,
+#    port      : 1025,
+#    auth      : true,
+#    encryption: '' # '', 'ssl' or 'tls'
