@@ -41,6 +41,12 @@ In way to use it just run the following commands.
 4. Open the example React App at http://localhost:3000/
 
 
+The url http://cockpit-example.docker.localhost/ should be accessible form your browser as the docker-compose uses Traefik, however if not, add it to your /etc/hosts file:
+
+    ```
+    $ sudo echo "127.0.0.1 cockpit-example.docker.localhost" >> /etc/hosts
+    ```
+
 ## Copyright and license
 
 Copyright 2018 pauloamgomes under the MIT license.
