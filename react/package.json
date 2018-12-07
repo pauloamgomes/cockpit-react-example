@@ -9,9 +9,9 @@
     "prettier": "^1.9.2",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react-dom": "^16.2.1",
     "react-flexbox-grid": "^2.0.0",
-    "react-markdown": "^3.1.3",
+    "react-markdown": "^3.1.5",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^5.0.0-alpha.9",
@@ -19,7 +19,8 @@
     "react-slick": "^0.16.0",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "snyk": "^1.116.2"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -32,10 +33,13 @@
     "start": "react-scripts start",
     "build": "sh -ac '. .env.production; react-scripts build'",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "husky": "^0.14.3",
     "pretty-quick": "^1.4.1"
-  }
+  },
+  "snyk": true
 }

@@ -1,0 +1,22 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:hoek:20180212':
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2018-12-07T22:46:57.576Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-12-07T22:46:57.576Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2018-12-07T22:46:57.576Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-12-07T22:46:57.576Z'
+    - react-scripts > webpack-dev-server > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-07T22:46:57.576Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2018-12-07T22:46:57.576Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2018-12-07T22:46:57.576Z'
+    - react-scripts > webpack > watchpack > chokidar > fsevents > node-pre-gyp > hawk > cryptiles > boom > hoek:
+        patched: '2018-12-07T22:46:57.576Z'
